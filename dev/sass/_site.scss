@@ -1,0 +1,125 @@
+#intro {
+	height: 300px;
+
+	h2 {
+		font-size: 1.6em
+	}
+
+	img {
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin: 30px 0 0 30px;
+		border-radius: 50%;
+	}
+
+	.copy {
+		float: left;
+		margin: 20px;
+	}
+}
+
+#work {
+	.content {
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		width: 66%;
+
+		h3 {
+			display: inline-block;
+		}
+
+		ul {
+			&.platforms {
+				display: inline-block;
+				margin-left: 20px;
+
+				li {
+					display: inline-block;
+					margin-left: 8px;
+				}
+			}
+		}
+	}
+
+	.preview {
+		display: inline-block;
+		position: relative;
+		width: 33%;
+		padding-top: 20px;
+
+		img {
+			width: 100%;
+			max-width: 400px;
+			border: 1px solid #e4e4e4;
+		}
+
+		.mobile {
+			position: absolute;
+			bottom: 0;
+			right: 10px;
+			width: 30%;
+			max-width: 200px;
+			border: 0;
+		}
+	}
+}
+
+#proficiencies {
+	>ul {
+		>li {
+			margin-bottom: 20px;
+
+			>ul {
+				>li {
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+}
+
+#contact {
+	.form {
+		margin: 10px auto;
+		max-width: 80%;
+
+		button {
+			display: block;
+			margin: 0 auto;
+			height: 50px;
+			width: 40%;
+		}
+	}
+
+	.find-me {
+		position: relative;
+		margin-top: 40px;
+		text-align: center;
+
+		.philly {
+			display: inline-block;
+		}
+
+		ul {
+			display: inline-block;
+			vertical-align: top;
+			margin: 30px 0 0 40px;
+			text-align: left;
+
+			li {
+				margin-bottom: 4px;
+			}
+
+			a {
+				color: #242424;
+				text-decoration: none;
+			}
+		}
+
+		img {
+			border-radius: 50%;
+		}
+	}
+}

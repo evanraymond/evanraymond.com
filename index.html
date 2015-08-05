@@ -1,0 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EvanRaymond.com - Web Profile for Evan Brophy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#proficiencies">Proficiencies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+		
+		<ul class="contact">
+            <li class="email"><a href="mailto:evan@thisdomain.com" onclick="this.href='mailto:' + 'evan' + '&#x40;' + 'evanraymond.com'"><i class="fa fa-envelope fa-lg"></i></a></li>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/evanbrophy" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            <li class="twitter"><a href="https://www.twitter.com/evanraymond" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li class="github"><a href="https://github.com/evanraymond" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+        </ul>
+    </nav>
+
+	<button class="menu-bars js-toggle-menu">
+		<i class="fa fa-bars fa-lg"></i>
+	</button>
+
+    <section id="intro">
+		<img src="img/evan-brophy.jpg" alt="Evan Brophy" title="Evan Brophy" />
+		<div class="copy">
+            <h1>Hello.<br />My name is Evan.</h1>
+            <h2>I am a full stack web developer.</h2>
+            <p>Contact me <a href="#contact">here</a> or check out my resume <a href="/resume/">here</a>!</p>
+		</div>
+    </section>
+	
+	<section id="work">
+        <h2>My Work</h2>
+
+        <ul>
+            <li>
+				<div class="content">
+					<h3>Instamour</h3>
+					
+					<ul class="platforms">
+						<li><i class="fa fa-android fa-lg" title="Android App"></i></li>
+						<li><i class="fa fa-apple fa-lg" title="IOS App"></i></li>
+						<li><i class="fa fa-cogs fa-lg" title="Web Admin"></i></li>
+					</ul>
+
+					<ul class="tags">
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">API</a></li>
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">Sass</a></li>
+						<li><a href="#">AWS</a></li>
+					</ul>
+
+					<p>
+						Instamour is a video dating app currently on the IOS and Android marketplace.  Both apps and an admin communicate through an API that is built in PHP.  We have scaled the apps to a 145k+ userbase.
+					</p>
+
+					<ul class="features">
+						<li>Single API endpoint used for IOS, Android, Admin, and Web applications. API is built on a custom PHP framework.</li>
+						<li>Full stack is hosted on AWS.  Uses a basic EC2 instance running Nginx and is setup for autoscaling. An RDS/MySQL server is setup as the database.</li>
+						<li>Uses AWS SNS for push notifications.</li>
+						<li>All videos are rendered through FFMpeg and stored on S3.</li>
+						<li>Uses Facebook Oath for user login.</li>
+						<li>A Facebook canvas app was setup around the web app for easy Facebook integration and user aquisition.</li>
+					</ul>
+				</div>
+
+				<div class="preview">
+					<img src="img/work/instamour.jpg" class="base" alt="Instamour on the browser" title="Instamour on the browser" />
+					<img src="img/work/instamour-mobile.png" class="mobile" alt="Mobile Instamour" title="Mobile Instamour" />
+				</div>
+
+				<hr />
+            </li>
+
+            <li>
+				<div class="content">
+					<h3>CHTSHT.io</h3>
+					
+					<ul class="platforms">
+						<li><i class="fa fa-laptop" title="Website"></i></li>
+						<li><i class="fa fa-mobile" title="Mobile/Responsive Website"></i></li>
+					</ul>
+
+					<ul class="tags">
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Phalcon</a></li>
+						<li><a href="#">MySQL</a></li>
+						<li><a href="#">Redis</a></li>
+						<li><a href="#">API</a></li>
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">Sass</a></li>
+						<li><a href="#">AWS</a></li>
+					</ul>
+
+					<p>
+						CHTSHT.io is a free, open source web app that allows users to post wiki style lists, or Cheetsheets, for various linux commands
+					</p>
+
+					<ul class="features">
+						<li>API is built in PHP using the Phalcon framework.  MySQL is used for the database.  Redis is used for caching.  Hosted on an EC2 instance running Nginx.</li>
+						<li>User authentication is done through Github Oath.  Only tokens are stored in the database.</li>
+						<li>The web frontend uses javascript/JQuery and Html5 elements to create a seamless, single page application for creating and editing CHTSHTs.</li>
+						<li>All code can be viewed on Github: <a href="https://github.com/chtsht">github.com/chtsht <i class="fa fa-external-link"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="preview">
+					<img src="img/work/chtsht.jpg" class="base" alt="Chtsht on the browser" title="Chtsht on the browser" />
+					<img src="img/work/chtsht-mobile.png" class="mobile" alt="Mobile Chtsht" title="Mobile Chtsht" />
+				</div>
+
+				<hr />
+            </li>
+
+			<li>
+				<div class="content">
+					<h3>PATravel</h3>
+
+					<ul class="platforms">
+						<li><i class="fa fa-laptop" title="Website"></i></li>
+						<li><i class="fa fa-mobile" title="Mobile/Responsive Website"></i></li>
+					</ul>
+
+					<ul class="tags">
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Processwire</a></li>
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">Sass</a></li>
+						<li><a href="#">Foundation</a></li>
+						<li><a href="#">JQuery</a></li>
+						<li><a href="#">AWS</a></li>
+					</ul>
+
+					<p>
+						PATravel is a Philadelphia-based travel agency.  This project consisted of creating a responsive, modern website from a legacy project and building out a backend using Processwire.
+					</p>
+
+					<ul class="features">
+						<li>All parts of the website is integrated into Prcoesswire CMS.</li>
+						<li>Offers are imported daily through an XML feed from a third party service</li>
+						<li>Frontend utilizes Foundation to help build a mobile experience.  All CSS is rendered from Sass files.</li>
+					</ul>
+				</div>
+
+				<div class="preview">
+					<img src="img/work/patravel.jpg" class="base" alt="PATravel on the browser" title="PATravel on the browser" />
+					<img src="img/work/patravel-mobile.png" class="mobile" alt="Mobile PATravel" title="Mobile PATravel" />
+				</div>
+
+				<hr />
+			</li>
+
+            <li>
+				<div class="content">
+					<h3>Rushordertees</h3>
+					
+					<ul class="platforms">
+						<li><i class="fa fa-laptop" title="Website"></i></li>
+						<li><i class="fa fa-mobile" title="Mobile/Responsive Website"></i></li>
+					</ul>
+
+					<ul class="tags">
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Ecommerce</a></li>
+						<li><a href="#">Mobile</a></li>
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">Bootstrap</a></li>
+						<li><a href="#">JQuery</a></li>
+					</ul>
+
+					<p>
+						Rushordertees is an ecommerce website that allows customers to design apperal such as t-shirts and hoodies in a html5 design studio.  The site includes a customer portal for saved designs and an item catalog.  I was hired to help maintain the front end.
+					</p>
+					
+					<ul class="features">
+						<li>The project consisted of muliple tiers: Two seperate branded front end websites, back-end service, and a Ext-JS CRM. The front and back end projects were written in custom PHP.</li>
+						<li>Redisigned front end to be mobile/responsive using Bootstrap.</li>
+						<li>First mobile</li>
+					</ul>
+				</div>
+				
+				<div class="preview">
+					<img src="img/work/rushordertees.jpg" class="base" alt="Rushordertees on the browser" title="Rushordertees on the browser" />
+					<img src="img/work/rushordertees-mobile.png" class="mobile" alt="Mobile Rushordertees" title="Mobile Rushordertees" />
+				</div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="proficiencies" id="proficiencies">
+        <h2>My Proficiencies</h2>
+
+        <ul>
+            <li>
+                <h3>PHP</h3>
+                <ul>
+                    <li><a href="http://www.codeigniter.com/" class="external" target="_blank">Codeignitor <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="https://phalconphp.com/" class="external" target="_blank">Phalcon <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="https://processwire.com/" class="external" target="_blank">ProcessWire <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="https://ellislab.com/expressionengine/" class="external" target="_blank">ExpressionEngine <i class="fa fa-external-link"></i></a></li>
+                </ul>
+            </li>
+
+            <li>
+                <h3>Html5/Javascript/CSS3</h3>
+                <ul>
+                    <li><a href="https://jquery.com/" class="external" target="_blank">JQuery <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="http://sass-lang.com/" class="external" target="_blank">Sass <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="http://getbootstrap.com/" class="external" target="_blank">Bootstrap <i class="fa fa-external-link"></i></a></li>
+                    <li><a href="http://foundation.zurb.com/" class="external" target="_blank">Foundation <i class="fa fa-external-link"></i></a></li>
+                </ul>
+            </li>
+
+            <li>
+                <h3>Amazon Web Services</h3>
+				<ul>
+					<li>EC2</li>
+					<li>RDS</li>
+					<li>ElastiCache</li>
+					<li>SNS / Push Notifications</li>
+					<li>SES</li>
+					<li>Route53</li>
+					<li>CloudWatch</li>
+				</ul>
+            </li>
+        </ul>
+
+		<hr />
+
+        <h2>Other tools that I use</h2>
+
+		<ul>
+			<li>
+				<h3>Development Setup</h3>
+				<ul>
+					<li>Windows / OSX / Linux</li>
+					<li>PHPStorm</li>
+					<li>Sublime</li>
+					<li>Vagrant</li>
+					<li>Gulp</li>
+					<li>Composer</li>
+					<li>Git</li>
+					<li>Xdebug</li>
+				</ul>
+			</li>
+
+			<li>
+				<h3>Server Setup</h3>
+				<ul>
+					<li>Linux / Ubuntu</li>
+					<li>Nginx</li>
+					<li>Apache</li>
+					<li>MySQL</li>
+					<li>Redis</li>
+				</ul>
+			</li>
+		</ul>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+		<div class="form">
+			<form name="contact" method="post" action="//formspree.io/evan@evanraymond.com">
+				<div>
+					<input type="text" name="name" data-required="true" placeholder="Name" />
+				</div>
+				
+				<div>
+					<input type="text" name="email" data-required="true" placeholder="Email" />
+				</div>
+				
+				<div>
+					<input type="text" name="phone" placeholder="Phone" />
+				</div>
+				
+				<div>
+					<textarea name="message" data-required="true" placeholder="Message"></textarea>
+				</div>
+				
+				<div>
+					<button>Send</button> 
+				</div>
+			</form>
+
+			<div class="msg success hide">Thank you for your submission.  I will get back to you shortly!</div>
+		</div>
+
+		<div class="find-me">
+			<div class="philly">
+				<img src="/img/philly.jpg" alt="" title="" />
+				<p>Located in:<br /><strong>Philadelphia, PA</strong></p>
+			</div>
+
+			<ul>
+				<li class="skype"><i class="fa fa-skype fa-lg"></i> evan.brophy1</li>
+				<li class="email"><a href="mailto:evan@email.com" onclick="this.href='mailto:' + 'evan' + '&#x40;' + 'evanraymond.com'"><i class="fa fa-envelope fa-lg"></i> evan&#x40;evanraymond.com <i class="fa fa-external-link"></i></a></li>
+				<li class="github"><a href="https://github.com/evanraymond" target="_blank"><i class="fa fa-github fa-lg"></i> github.com/evanraymond <i class="fa fa-external-link"></i></a></li>
+				<li class="linkedin"><a href="https://www.linkedin.com/in/evanbrophy" target="_blank"><i class="fa fa-linkedin fa-lg"></i> linkedin.com/in/evanbrophy <i class="fa fa-external-link"></i></a></li>
+				<li class="twitter"><a href="https://www.twitter.com/evanraymond" target="_blank"><i class="fa fa-twitter fa-lg"></i> twitter.com/evanraymond <i class="fa fa-external-link"></i></a></li>
+			</ul>
+		</div>
+    </section>
+
+    <footer>
+        Copyright © 2015 <i class="fa fa-beer"></i> evanraymond.com
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+</body>
+</html>

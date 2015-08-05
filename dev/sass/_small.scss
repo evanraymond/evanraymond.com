@@ -1,0 +1,40 @@
+@media only screen and (max-width: 40em) {
+	body {
+		margin: 5px;
+		padding: 0;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#intro {
+		height: auto;
+		text-align: center;
+
+		img {
+			float: none;
+		}
+
+		.copy {
+			float: none;
+		}
+	}
+
+	#work {
+		.content {
+			display: block;
+			width: auto;
+		}
+
+		.preview {
+			display: block;
+			margin: 10px auto;
+			width: 90%;
+
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}
